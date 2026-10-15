@@ -1,0 +1,17 @@
+{
+  "privileged": {
+    "known": 2036,
+    "median": 5.0,
+    "maximum_exceeds": 3000
+  },
+  "rce": {
+    "known": 2853,
+    "median": 7,
+    "maximum_exceeds": 20000
+  },
+  "unconfirmed": {
+    "known": 5958,
+    "median": 6.0,
+    "maximum_exceeds": 20000
+  }
+}

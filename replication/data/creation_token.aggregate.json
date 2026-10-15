@@ -1,0 +1,110 @@
+[
+  {
+    "outcome": "privileged",
+    "creation_cohort": "from-2023-02",
+    "write_scoped": 0,
+    "count": 370
+  },
+  {
+    "outcome": "privileged",
+    "creation_cohort": "from-2023-02",
+    "write_scoped": 1,
+    "count": 924
+  },
+  {
+    "outcome": "privileged",
+    "creation_cohort": "pre-2023-02",
+    "write_scoped": 0,
+    "count": 143
+  },
+  {
+    "outcome": "privileged",
+    "creation_cohort": "pre-2023-02",
+    "write_scoped": 1,
+    "count": 600
+  },
+  {
+    "outcome": "privileged",
+    "creation_cohort": "unknown",
+    "write_scoped": 0,
+    "count": 4
+  },
+  {
+    "outcome": "privileged",
+    "creation_cohort": "unknown",
+    "write_scoped": 1,
+    "count": 13
+  },
+  {
+    "outcome": "rce",
+    "creation_cohort": "from-2023-02",
+    "write_scoped": 0,
+    "count": 1033
+  },
+  {
+    "outcome": "rce",
+    "creation_cohort": "from-2023-02",
+    "write_scoped": 1,
+    "count": 716
+  },
+  {
+    "outcome": "rce",
+    "creation_cohort": "pre-2023-02",
+    "write_scoped": 0,
+    "count": 607
+  },
+  {
+    "outcome": "rce",
+    "creation_cohort": "pre-2023-02",
+    "write_scoped": 1,
+    "count": 500
+  },
+  {
+    "outcome": "rce",
+    "creation_cohort": "unknown",
+    "write_scoped": 0,
+    "count": 11
+  },
+  {
+    "outcome": "rce",
+    "creation_cohort": "unknown",
+    "write_scoped": 1,
+    "count": 14
+  },
+  {
+    "outcome": "unconfirmed",
+    "creation_cohort": "from-2023-02",
+    "write_scoped": 0,
+    "count": 2324
+  },
+  {
+    "outcome": "unconfirmed",
+    "creation_cohort": "from-2023-02",
+    "write_scoped": 1,
+    "count": 1150
+  },
+  {
+    "outcome": "unconfirmed",
+    "creation_cohort": "pre-2023-02",
+    "write_scoped": 0,
+    "count": 1915
+  },
+  {
+    "outcome": "unconfirmed",
+    "creation_cohort": "pre-2023-02",
+    "write_scoped": 1,
+    "count": 572
+  },
+  {
+    "outcome": "unconfirmed",
+    "creation_cohort": "unknown",
+    "write_scoped": 0,
+    "count": 144
+  },
+  {
+    "outcome": "unconfirmed",
+    "creation_cohort": "unknown",
+    "write_scoped": 1,
+    "count": 14
+  }
+]

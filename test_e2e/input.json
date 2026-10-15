@@ -1,0 +1,153 @@
+{
+  "username": "synthetic-owner",
+  "scopes": [],
+  "enumeration": {
+    "organizations": [],
+    "repositories": [
+      {
+        "name": "synthetic-owner/case-a",
+        "commit": "0000000000000000000000000000000000000000",
+        "enum_time": "2026-01-01T00:00:00Z",
+        "stars": 0,
+        "can_fork": true,
+        "risks": [
+          {
+            "repository_name": "synthetic-owner/case-a",
+            "vulnerable": true,
+            "issue_type": "PwnRequestResult",
+            "triggers": [
+              "pull_request_target"
+            ],
+            "initial_workflow": "demo.yml",
+            "path": [
+              {
+                "node": "WorkflowNode('synthetic-owner/case-a:main:.github/workflows/demo.yml')"
+              }
+            ],
+            "sink": "python main.py"
+          }
+        ]
+      },
+      {
+        "name": "synthetic-owner/case-b",
+        "commit": "0000000000000000000000000000000000000000",
+        "enum_time": "2026-01-01T00:00:00Z",
+        "stars": 0,
+        "can_fork": true,
+        "risks": [
+          {
+            "repository_name": "synthetic-owner/case-b",
+            "vulnerable": false,
+            "issue_type": "PwnRequestResult",
+            "triggers": [
+              "pull_request_target"
+            ],
+            "initial_workflow": "demo.yml",
+            "path": [
+              {
+                "node": "WorkflowNode('synthetic-owner/case-b:main:.github/workflows/demo.yml')"
+              }
+            ],
+            "sink": "python main.py"
+          }
+        ]
+      },
+      {
+        "name": "synthetic-owner/case-c",
+        "commit": "0000000000000000000000000000000000000000",
+        "enum_time": "2026-01-01T00:00:00Z",
+        "stars": 0,
+        "can_fork": true,
+        "risks": [
+          {
+            "repository_name": "synthetic-owner/case-c",
+            "vulnerable": true,
+            "issue_type": "PwnRequestResult",
+            "triggers": [
+              "pull_request_target"
+            ],
+            "initial_workflow": "demo.yml",
+            "path": [
+              {
+                "node": "WorkflowNode('synthetic-owner/case-c:main:.github/workflows/demo.yml')"
+              }
+            ],
+            "sink": "python main.py"
+          }
+        ]
+      },
+      {
+        "name": "synthetic-owner/case-d",
+        "commit": "0000000000000000000000000000000000000000",
+        "enum_time": "2026-01-01T00:00:00Z",
+        "stars": 0,
+        "can_fork": true,
+        "risks": [
+          {
+            "repository_name": "synthetic-owner/case-d",
+            "vulnerable": false,
+            "issue_type": "PwnRequestResult",
+            "triggers": [
+              "pull_request_target"
+            ],
+            "initial_workflow": "demo.yml",
+            "path": [
+              {
+                "node": "WorkflowNode('synthetic-owner/case-d:main:.github/workflows/demo.yml')"
+              }
+            ],
+            "sink": "python main.py"
+          }
+        ]
+      },
+      {
+        "name": "synthetic-owner/case-e",
+        "commit": "0000000000000000000000000000000000000000",
+        "enum_time": "2026-01-01T00:00:00Z",
+        "stars": 0,
+        "can_fork": true,
+        "risks": [
+          {
+            "repository_name": "synthetic-owner/case-e",
+            "vulnerable": true,
+            "issue_type": "PwnRequestResult",
+            "triggers": [
+              "pull_request_target"
+            ],
+            "initial_workflow": "demo.yml",
+            "path": [
+              {
+                "node": "WorkflowNode('synthetic-owner/case-e:main:.github/workflows/demo.yml')"
+              }
+            ],
+            "sink": "python main.py"
+          }
+        ]
+      },
+      {
+        "name": "synthetic-owner/case-f",
+        "commit": "0000000000000000000000000000000000000000",
+        "enum_time": "2026-01-01T00:00:00Z",
+        "stars": 0,
+        "can_fork": true,
+        "risks": [
+          {
+            "repository_name": "synthetic-owner/case-f",
+            "vulnerable": false,
+            "issue_type": "PwnRequestResult",
+            "triggers": [
+              "pull_request_target"
+            ],
+            "initial_workflow": "demo.yml",
+            "path": [
+              {
+                "node": "WorkflowNode('synthetic-owner/case-f:main:.github/workflows/demo.yml')"
+              }
+            ],
+            "sink": "python main.py"
+          }
+        ]
+      }
+    ]
+  }
+}

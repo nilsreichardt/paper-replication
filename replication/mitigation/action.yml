@@ -1,0 +1,21 @@
+name: 'Verify "safe to test" label'
+description: 'Secure pull_request_target workflows by requiring maintainer approval for fork-based PRs.'
+inputs:
+  label:
+    description: 'The name of the label required to pass the check. Always passes if the pull request is not from a fork.'
+    required: false
+    default: 'safe to test'
+  require-reapproval:
+    description: 'When `true`, removes the label on every workflow run to force re-review of each workflow run. When you set this to `false`, an attacker could push malicious code after you marked the code as safe with the label.'
+    required: false
+    default: 'true'
+  repo-token:
+    description: 'The GitHub token used to manage labels when require-reapproval is `true`'
+    required: false
+    default: ${{ github.token }}
+runs:
+  using: 'node24'
+  main: 'index.js'
+branding:
+  icon: shield
+  color: white

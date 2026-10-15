@@ -1,0 +1,38 @@
+{
+  "source_snapshot": "Published pipeline source snapshot; not a claim of one immutable version throughout the study",
+  "study_period": {
+    "start": "2026-03-05",
+    "end": "2026-05-30",
+    "evidence": "thesis methodology"
+  },
+  "agent": {
+    "provider": "gemini-cli",
+    "model": "gemini-3-flash-preview",
+    "model_evidence": "Pipeline parser and configuration default explicitly select this model; launcher passes --model. Also present in study-period source history.",
+    "gemini_cli_version": "0.34.0",
+    "approval_mode": "yolo",
+    "output_format": "stream-json",
+    "prompt_transport": "stdin",
+    "agent_timeout_seconds_observed": [
+      1500,
+      3600
+    ],
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "seed": null,
+    "billing_default": "oauth"
+  },
+  "attempts": {
+    "deployed_attempts_per_repository_paper": 1
+  },
+  "environment_reported_by_thesis": {
+    "python": "3.12",
+    "google_genai": "1.65.0",
+    "note": "The included uv.lock captures the published source environment, not proof of every historical worker dependency."
+  },
+  "reproduction_limits": [
+    "Fresh GitHub runs cannot be expected to reproduce identical populations or counts: repositories can become private, be deleted, renamed or patched, and workflows and dependencies can change. The released snapshot supports recomputation of the reported marginal results.",
+    "LLM nondeterminism and preview-model availability prevent exact reruns.",
+    "Repository identities and scanned commit hashes are intentionally withheld."
+  ]
+}

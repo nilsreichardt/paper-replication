@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pwn-hunter-ai"
+version = "0.1.0"
+description = "AI-assisted verification of pull_request_target Pwn Request risks."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "google-genai>=1.15.0",
+  "langfuse>=4.0.0",
+  "openinference-instrumentation-google-genai>=0.1.12",
+  "PyNaCl>=1.5.0",
+  "pydantic>=2.7.0",
+  "PyYAML>=6.0.0",
+  "requests>=2.31.0",
+  "docker>=7.1.0",
+  "openhands-sdk>=1.0.0",
+  "openhands-tools>=1.0.0",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.0.0",
+]
+
+[project.scripts]
+pwnhunter = "pwn_hunter_ai.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "replication/tests"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

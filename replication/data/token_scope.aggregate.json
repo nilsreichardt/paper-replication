@@ -1,0 +1,72 @@
+[
+  {
+    "outcome": "privileged",
+    "token_scope": "non-write",
+    "count": 135
+  },
+  {
+    "outcome": "privileged",
+    "token_scope": "not-clear",
+    "count": 72
+  },
+  {
+    "outcome": "privileged",
+    "token_scope": "read",
+    "count": 127
+  },
+  {
+    "outcome": "privileged",
+    "token_scope": "unknown",
+    "count": 183
+  },
+  {
+    "outcome": "privileged",
+    "token_scope": "write",
+    "count": 1537
+  },
+  {
+    "outcome": "rce",
+    "token_scope": "non-write",
+    "count": 162
+  },
+  {
+    "outcome": "rce",
+    "token_scope": "not-clear",
+    "count": 459
+  },
+  {
+    "outcome": "rce",
+    "token_scope": "read",
+    "count": 135
+  },
+  {
+    "outcome": "rce",
+    "token_scope": "unknown",
+    "count": 895
+  },
+  {
+    "outcome": "rce",
+    "token_scope": "write",
+    "count": 1230
+  },
+  {
+    "outcome": "unconfirmed",
+    "token_scope": "non-write",
+    "count": 619
+  },
+  {
+    "outcome": "unconfirmed",
+    "token_scope": "not-clear",
+    "count": 279
+  },
+  {
+    "outcome": "unconfirmed",
+    "token_scope": "unknown",
+    "count": 3485
+  },
+  {
+    "outcome": "unconfirmed",
+    "token_scope": "write",
+    "count": 1736
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "outcome": "privileged",
+    "has_structured_sink": 0,
+    "count": 89
+  },
+  {
+    "outcome": "privileged",
+    "has_structured_sink": 1,
+    "count": 1965
+  },
+  {
+    "outcome": "rce",
+    "has_structured_sink": 0,
+    "count": 128
+  },
+  {
+    "outcome": "rce",
+    "has_structured_sink": 1,
+    "count": 2753
+  }
+]

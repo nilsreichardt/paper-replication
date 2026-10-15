@@ -1,0 +1,47 @@
+[
+  {
+    "outcome": "privileged",
+    "activity": "active",
+    "count": 1338
+  },
+  {
+    "outcome": "privileged",
+    "activity": "inactive",
+    "count": 255
+  },
+  {
+    "outcome": "privileged",
+    "activity": "unknown",
+    "count": 461
+  },
+  {
+    "outcome": "rce",
+    "activity": "active",
+    "count": 1993
+  },
+  {
+    "outcome": "rce",
+    "activity": "inactive",
+    "count": 373
+  },
+  {
+    "outcome": "rce",
+    "activity": "unknown",
+    "count": 515
+  },
+  {
+    "outcome": "unconfirmed",
+    "activity": "active",
+    "count": 2870
+  },
+  {
+    "outcome": "unconfirmed",
+    "activity": "inactive",
+    "count": 641
+  },
+  {
+    "outcome": "unconfirmed",
+    "activity": "unknown",
+    "count": 2608
+  }
+]

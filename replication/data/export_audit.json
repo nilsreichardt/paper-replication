@@ -1,0 +1,232 @@
+{
+  "format_version": 1,
+  "coverage": {
+    "stage1_unique_observed": 95584,
+    "enumeration_records_observed": 95430,
+    "enumeration_with_any_risk": 20112,
+    "enumeration_with_recorded_commit": 0,
+    "stage3_records_observed": 11054,
+    "stage3_records_with_nonempty_commit": 9039,
+    "disclosure_membership_and_flags_match": true
+  },
+  "validation": {
+    "unconfirmed": 6119,
+    "rce": 2881,
+    "privileged": 2054,
+    "write_scoped_privileged": 1537,
+    "named_secret_privileged": 968,
+    "both_privileged": 451
+  },
+  "warnings": [],
+  "views": {
+    "outcomes": {
+      "source_rows": 11054,
+      "released_microdata_rows": 11054,
+      "fields": [
+        "outcome"
+      ]
+    },
+    "stars": {
+      "source_rows": 11054,
+      "released_microdata_rows": 11054,
+      "fields": [
+        "outcome",
+        "star_bucket"
+      ]
+    },
+    "activity": {
+      "source_rows": 11054,
+      "released_microdata_rows": 11054,
+      "fields": [
+        "outcome",
+        "activity"
+      ]
+    },
+    "token_scope": {
+      "source_rows": 11054,
+      "released_microdata_rows": 11054,
+      "fields": [
+        "outcome",
+        "token_scope"
+      ]
+    },
+    "credential_evidence": {
+      "source_rows": 11054,
+      "released_microdata_rows": 11054,
+      "fields": [
+        "outcome",
+        "write_scoped",
+        "named_secret"
+      ]
+    },
+    "contributors": {
+      "source_rows": 11054,
+      "released_microdata_rows": 11054,
+      "fields": [
+        "outcome",
+        "contributor_bucket"
+      ]
+    },
+    "creation_token": {
+      "source_rows": 11054,
+      "released_microdata_rows": 11050,
+      "fields": [
+        "outcome",
+        "creation_cohort",
+        "write_scoped"
+      ]
+    },
+    "sink_availability": {
+      "source_rows": 4935,
+      "released_microdata_rows": 4935,
+      "fields": [
+        "outcome",
+        "has_structured_sink"
+      ]
+    },
+    "verification_status": {
+      "source_rows": 11054,
+      "released_microdata_rows": 11054,
+      "fields": [
+        "outcome",
+        "verification_status"
+      ]
+    },
+    "taxonomy_A_package_manager": {
+      "source_rows": 4935,
+      "released_microdata_rows": 4935,
+      "fields": [
+        "outcome",
+        "present"
+      ]
+    },
+    "taxonomy_B_test_suite": {
+      "source_rows": 4935,
+      "released_microdata_rows": 4935,
+      "fields": [
+        "outcome",
+        "present"
+      ]
+    },
+    "taxonomy_C_build_system": {
+      "source_rows": 4935,
+      "released_microdata_rows": 4935,
+      "fields": [
+        "outcome",
+        "present"
+      ]
+    },
+    "taxonomy_D_direct_script": {
+      "source_rows": 4935,
+      "released_microdata_rows": 4935,
+      "fields": [
+        "outcome",
+        "present"
+      ]
+    },
+    "taxonomy_E_interpreter": {
+      "source_rows": 4935,
+      "released_microdata_rows": 4935,
+      "fields": [
+        "outcome",
+        "present"
+      ]
+    },
+    "taxonomy_F_transitive_action": {
+      "source_rows": 4935,
+      "released_microdata_rows": 4935,
+      "fields": [
+        "outcome",
+        "present"
+      ]
+    },
+    "taxonomy_other_detected": {
+      "source_rows": 4935,
+      "released_microdata_rows": 4935,
+      "fields": [
+        "outcome",
+        "present"
+      ]
+    },
+    "taxonomy_no_sink_recorded": {
+      "source_rows": 4935,
+      "released_microdata_rows": 4935,
+      "fields": [
+        "outcome",
+        "present"
+      ]
+    }
+  },
+  "small_cells_excluded_from_microdata": {
+    "outcomes": {
+      "cells": 0,
+      "rows": 0
+    },
+    "stars": {
+      "cells": 0,
+      "rows": 0
+    },
+    "activity": {
+      "cells": 0,
+      "rows": 0
+    },
+    "token_scope": {
+      "cells": 0,
+      "rows": 0
+    },
+    "credential_evidence": {
+      "cells": 0,
+      "rows": 0
+    },
+    "contributors": {
+      "cells": 0,
+      "rows": 0
+    },
+    "creation_token": {
+      "cells": 1,
+      "rows": 4
+    },
+    "sink_availability": {
+      "cells": 0,
+      "rows": 0
+    },
+    "verification_status": {
+      "cells": 0,
+      "rows": 0
+    },
+    "taxonomy_A_package_manager": {
+      "cells": 0,
+      "rows": 0
+    },
+    "taxonomy_B_test_suite": {
+      "cells": 0,
+      "rows": 0
+    },
+    "taxonomy_C_build_system": {
+      "cells": 0,
+      "rows": 0
+    },
+    "taxonomy_D_direct_script": {
+      "cells": 0,
+      "rows": 0
+    },
+    "taxonomy_E_interpreter": {
+      "cells": 0,
+      "rows": 0
+    },
+    "taxonomy_F_transitive_action": {
+      "cells": 0,
+      "rows": 0
+    },
+    "taxonomy_other_detected": {
+      "cells": 0,
+      "rows": 0
+    },
+    "taxonomy_no_sink_recorded": {
+      "cells": 0,
+      "rows": 0
+    }
+  },
+  "minimum_microdata_cell_size": 5,
+  "privacy": "No source names, hashes, dates, paths, transcripts, secret names or stable join keys. Views independently shuffled. Exact marginal counts retained in aggregate files; rare cells excluded from CSVs. This reduces linkage risk and does not guarantee anonymity."
+}

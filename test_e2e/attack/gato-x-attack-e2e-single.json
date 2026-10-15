@@ -1,0 +1,27 @@
+{
+  "enumeration": {
+    "repositories": [
+      {
+        "name": "synthetic-owner/demo",
+        "commit": "0000000000000000000000000000000000000000",
+        "can_fork": true,
+        "risks": [
+          {
+            "repository_name": "synthetic-owner/demo",
+            "issue_type": "PwnRequestResult",
+            "triggers": [
+              "pull_request_target"
+            ],
+            "initial_workflow": "demo.yml",
+            "path": [
+              {
+                "node": "WorkflowNode('synthetic-owner/demo:main:.github/workflows/demo.yml')"
+              }
+            ],
+            "sink": "python main.py"
+          }
+        ]
+      }
+    ]
+  }
+}

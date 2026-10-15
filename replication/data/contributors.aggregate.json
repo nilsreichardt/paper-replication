@@ -1,0 +1,107 @@
+[
+  {
+    "outcome": "privileged",
+    "contributor_bucket": "0-1",
+    "count": 412
+  },
+  {
+    "outcome": "privileged",
+    "contributor_bucket": "11-50",
+    "count": 415
+  },
+  {
+    "outcome": "privileged",
+    "contributor_bucket": "2-5",
+    "count": 684
+  },
+  {
+    "outcome": "privileged",
+    "contributor_bucket": "51-100",
+    "count": 118
+  },
+  {
+    "outcome": "privileged",
+    "contributor_bucket": "6-10",
+    "count": 231
+  },
+  {
+    "outcome": "privileged",
+    "contributor_bucket": ">100",
+    "count": 176
+  },
+  {
+    "outcome": "privileged",
+    "contributor_bucket": "unknown",
+    "count": 18
+  },
+  {
+    "outcome": "rce",
+    "contributor_bucket": "0-1",
+    "count": 489
+  },
+  {
+    "outcome": "rce",
+    "contributor_bucket": "11-50",
+    "count": 598
+  },
+  {
+    "outcome": "rce",
+    "contributor_bucket": "2-5",
+    "count": 850
+  },
+  {
+    "outcome": "rce",
+    "contributor_bucket": "51-100",
+    "count": 180
+  },
+  {
+    "outcome": "rce",
+    "contributor_bucket": "6-10",
+    "count": 280
+  },
+  {
+    "outcome": "rce",
+    "contributor_bucket": ">100",
+    "count": 456
+  },
+  {
+    "outcome": "rce",
+    "contributor_bucket": "unknown",
+    "count": 28
+  },
+  {
+    "outcome": "unconfirmed",
+    "contributor_bucket": "0-1",
+    "count": 1165
+  },
+  {
+    "outcome": "unconfirmed",
+    "contributor_bucket": "11-50",
+    "count": 1094
+  },
+  {
+    "outcome": "unconfirmed",
+    "contributor_bucket": "2-5",
+    "count": 1738
+  },
+  {
+    "outcome": "unconfirmed",
+    "contributor_bucket": "51-100",
+    "count": 342
+  },
+  {
+    "outcome": "unconfirmed",
+    "contributor_bucket": "6-10",
+    "count": 661
+  },
+  {
+    "outcome": "unconfirmed",
+    "contributor_bucket": ">100",
+    "count": 958
+  },
+  {
+    "outcome": "unconfirmed",
+    "contributor_bucket": "unknown",
+    "count": 161
+  }
+]

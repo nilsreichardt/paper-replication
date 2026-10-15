@@ -1,0 +1,16 @@
+name: Artificial pathway A
+on:
+  pull_request_target:
+    types: [opened, synchronize]
+permissions:
+  contents: read
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    env:
+      REPLICATION_CANARY: synthetic-value-no-credential
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - run: npm install --offline --no-audit --no-fund

@@ -1,0 +1,22 @@
+[
+  {
+    "outcome": "privileged",
+    "present": 0,
+    "count": 1850
+  },
+  {
+    "outcome": "privileged",
+    "present": 1,
+    "count": 204
+  },
+  {
+    "outcome": "rce",
+    "present": 0,
+    "count": 2610
+  },
+  {
+    "outcome": "rce",
+    "present": 1,
+    "count": 271
+  }
+]

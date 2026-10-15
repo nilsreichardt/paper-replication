@@ -1,0 +1,27 @@
+[
+  {
+    "outcome": "privileged",
+    "verification_status": "processed",
+    "count": 2054
+  },
+  {
+    "outcome": "rce",
+    "verification_status": "processed",
+    "count": 2881
+  },
+  {
+    "outcome": "unconfirmed",
+    "verification_status": "error",
+    "count": 895
+  },
+  {
+    "outcome": "unconfirmed",
+    "verification_status": "processed",
+    "count": 5072
+  },
+  {
+    "outcome": "unconfirmed",
+    "verification_status": "skipped",
+    "count": 152
+  }
+]

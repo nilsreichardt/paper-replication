@@ -1,0 +1,14 @@
+{
+  "scanner": {
+    "selection_evidence": "Author recalls multiple-tokens branch; not verified from study runtime",
+    "source_commit_withheld_for_review": true
+  },
+  "mitigation": {
+    "selection_evidence": "Current source snapshot retrieved for replication; historical deployment not independently established",
+    "source_commit_withheld_for_review": true
+  },
+  "collector": {
+    "selection_evidence": "Current source snapshot retrieved for replication; historical deployment not independently established",
+    "source_commit_withheld_for_review": true
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "provenance": "New artificial replication examples, not historical study data",
+  "cases": [
+    {
+      "type": "A",
+      "directory": "A_package_manager",
+      "marker": "SYNTHETIC_A:synthetic-value-no-credential",
+      "payload_file": "postinstall.js",
+      "neutral_payload": "console.log(\"neutral\");\n"
+    },
+    {
+      "type": "B",
+      "directory": "B_test_suite",
+      "marker": "SYNTHETIC_B:synthetic-value-no-credential",
+      "payload_file": "test_marker.py",
+      "neutral_payload": "def test_marker():\n    assert True\n"
+    },
+    {
+      "type": "C",
+      "directory": "C_build_system",
+      "marker": "SYNTHETIC_C:synthetic-value-no-credential",
+      "payload_file": "marker.py",
+      "neutral_payload": "print(\"neutral\")\n"
+    },
+    {
+      "type": "D",
+      "directory": "D_direct_script",
+      "marker": "SYNTHETIC_D:synthetic-value-no-credential",
+      "payload_file": "ci.sh",
+      "neutral_payload": "#!/bin/sh\necho neutral\n"
+    },
+    {
+      "type": "E",
+      "directory": "E_interpreter",
+      "marker": "SYNTHETIC_E:synthetic-value-no-credential",
+      "payload_file": "main.py",
+      "neutral_payload": "print(\"neutral\")\n"
+    },
+    {
+      "type": "F",
+      "directory": "F_transitive_action",
+      "marker": "SYNTHETIC_F:synthetic-value-no-credential",
+      "payload_file": "main.py",
+      "neutral_payload": "print(\"neutral\")\n"
+    }
+  ]
+}

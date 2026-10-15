@@ -1,0 +1,9 @@
+{
+  "name": "replication-agent-runtime",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reproduction pin; see study.json for scope",
+  "devDependencies": {
+    "@google/gemini-cli": "0.34.0"
+  }
+}

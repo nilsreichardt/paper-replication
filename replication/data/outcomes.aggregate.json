@@ -1,0 +1,14 @@
+[
+  {
+    "outcome": "privileged",
+    "count": 2054
+  },
+  {
+    "outcome": "rce",
+    "count": 2881
+  },
+  {
+    "outcome": "unconfirmed",
+    "count": 6119
+  }
+]

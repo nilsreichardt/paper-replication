@@ -1,0 +1,10 @@
+name: Artificial transitive runner
+description: Demonstrates checkout through an action
+runs:
+  using: composite
+  steps:
+    - uses: actions/checkout@v4
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
+    - shell: bash
+      run: python main.py

@@ -1,0 +1,77 @@
+[
+  {
+    "outcome": "privileged",
+    "star_bucket": "0",
+    "count": 1011
+  },
+  {
+    "outcome": "privileged",
+    "star_bucket": "1-10",
+    "count": 578
+  },
+  {
+    "outcome": "privileged",
+    "star_bucket": "101-1000",
+    "count": 125
+  },
+  {
+    "outcome": "privileged",
+    "star_bucket": "11-100",
+    "count": 300
+  },
+  {
+    "outcome": "privileged",
+    "star_bucket": ">1000",
+    "count": 40
+  },
+  {
+    "outcome": "rce",
+    "star_bucket": "0",
+    "count": 1331
+  },
+  {
+    "outcome": "rce",
+    "star_bucket": "1-10",
+    "count": 772
+  },
+  {
+    "outcome": "rce",
+    "star_bucket": "101-1000",
+    "count": 236
+  },
+  {
+    "outcome": "rce",
+    "star_bucket": "11-100",
+    "count": 450
+  },
+  {
+    "outcome": "rce",
+    "star_bucket": ">1000",
+    "count": 92
+  },
+  {
+    "outcome": "unconfirmed",
+    "star_bucket": "0",
+    "count": 2926
+  },
+  {
+    "outcome": "unconfirmed",
+    "star_bucket": "1-10",
+    "count": 1583
+  },
+  {
+    "outcome": "unconfirmed",
+    "star_bucket": "101-1000",
+    "count": 450
+  },
+  {
+    "outcome": "unconfirmed",
+    "star_bucket": "11-100",
+    "count": 907
+  },
+  {
+    "outcome": "unconfirmed",
+    "star_bucket": ">1000",
+    "count": 253
+  }
+]
